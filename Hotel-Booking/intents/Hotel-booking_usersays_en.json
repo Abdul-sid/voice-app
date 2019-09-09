@@ -1,0 +1,220 @@
+[
+  {
+    "id": "05bcfc56-a5b8-4b1e-aeca-5ef821adbdeb",
+    "data": [
+      {
+        "text": "book ",
+        "userDefined": false
+      },
+      {
+        "text": "vip",
+        "alias": "Room-type",
+        "meta": "@Room-type",
+        "userDefined": true
+      },
+      {
+        "text": " room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "118446b0-7b13-4c03-89ee-85e5ce94e4f6",
+    "data": [
+      {
+        "text": "vip",
+        "alias": "Room-type",
+        "meta": "@Room-type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8acc095c-9e5f-4361-a1bf-d0f30d9a95aa",
+    "data": [
+      {
+        "text": "I wanna book ",
+        "userDefined": false
+      },
+      {
+        "text": "vip",
+        "alias": "Room-type",
+        "meta": "@Room-type",
+        "userDefined": true
+      },
+      {
+        "text": " room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f4955ff1-4d56-49a8-8d0b-08b82b90b628",
+    "data": [
+      {
+        "text": "wanna book hotel",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b80e3ce5-ea4f-4f41-9629-a88c3da02edb",
+    "data": [
+      {
+        "text": "I wanna book hotel room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3ed50420-1e21-4867-9947-6df23d538170",
+    "data": [
+      {
+        "text": "3",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d2300e98-220e-442b-8e61-25e0829e70a6",
+    "data": [
+      {
+        "text": "room for ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "70635c57-ca1a-408e-9aec-90580c910aa0",
+    "data": [
+      {
+        "text": "I want room for ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " people.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f4a962e2-ff27-4bab-8eb9-dad0414ef7c1",
+    "data": [
+      {
+        "text": "123@gmail.com",
+        "alias": "email",
+        "meta": "@sys.email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e5ec721f-12da-44de-8161-4c50d24c794f",
+    "data": [
+      {
+        "text": "My email is ",
+        "userDefined": false
+      },
+      {
+        "text": "123@gmail.com",
+        "alias": "email",
+        "meta": "@sys.email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bf373ac7-71e6-4cd6-a117-62e32d89105f",
+    "data": [
+      {
+        "text": "I am ",
+        "userDefined": false
+      },
+      {
+        "text": "abdul",
+        "alias": "person",
+        "meta": "@sys.person",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8c262392-11fd-4fd4-b802-3024d0727594",
+    "data": [
+      {
+        "text": "abdul",
+        "alias": "person",
+        "meta": "@sys.person",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d20b6778-7e14-4601-a313-90889a1fe427",
+    "data": [
+      {
+        "text": "My name is ",
+        "userDefined": false
+      },
+      {
+        "text": "abdul",
+        "alias": "person",
+        "meta": "@sys.person",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

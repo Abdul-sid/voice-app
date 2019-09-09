@@ -1,0 +1,100 @@
+{
+  "id": "a29bb1bb-35f6-4506-88b5-8f7470860739",
+  "name": "Hotel-booking",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "bc458d56-a7b1-403d-8d1e-acf55ca1e654",
+          "required": true,
+          "dataType": "@sys.person",
+          "name": "person",
+          "value": "$person",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is your name ?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "66d093cd-89a4-4d73-b3e3-f6a83abbd050",
+          "required": true,
+          "dataType": "@sys.email",
+          "name": "email",
+          "value": "$email",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is your mail ?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "379d50e8-e80a-45e1-a5e3-68abfdf2a99a",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Room for many people ?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "90b5cb8c-3389-4d0a-b04d-d61bfb32f22b",
+          "required": true,
+          "dataType": "@Room-type",
+          "name": "Room-type",
+          "value": "$Room-type",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What kind of room do you want ? We have rooms with different category: 1) economy 2) standard 3) VIP"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Your hotel has been booked. Do you wanna send feedback ? (complain or suggestion)"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

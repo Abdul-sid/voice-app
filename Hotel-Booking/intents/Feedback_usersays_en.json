@@ -1,0 +1,67 @@
+[
+  {
+    "id": "ae76180b-edc7-4b18-82ed-451210577979",
+    "data": [
+      {
+        "text": "I wanna complain about poor administration",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b03de382-ecf8-46f5-973d-b22d75a113a4",
+    "data": [
+      {
+        "text": "I wanna ",
+        "userDefined": false
+      },
+      {
+        "text": "complain",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "79533d99-bdf4-4d0a-a2e8-253d6a999cbf",
+    "data": [
+      {
+        "text": "I wanna give ",
+        "userDefined": false
+      },
+      {
+        "text": "suggestion",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b8724511-991c-4ae5-9cea-bcbe0c9baab0",
+    "data": [
+      {
+        "text": "I wanna submit a ",
+        "userDefined": false
+      },
+      {
+        "text": "feedback",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]
