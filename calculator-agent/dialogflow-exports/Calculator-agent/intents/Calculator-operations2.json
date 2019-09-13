@@ -1,0 +1,66 @@
+{
+  "id": "57ca4a9f-ae78-4bbb-8c47-3792d8a3b997",
+  "name": "Calculator-operations2",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "a19b56b6-712d-4996-b3da-840bb32ec7b8",
+          "required": true,
+          "dataType": "@operation",
+          "name": "operation",
+          "value": "$operation",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "c9c35198-9b96-4b07-a69c-07608ced7d58",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "55392de2-37fd-4fca-ba57-441e896b900c",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "number1",
+          "value": "$number1",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "error 2"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": []
+}
