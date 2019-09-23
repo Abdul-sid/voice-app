@@ -1,0 +1,84 @@
+{
+  "id": "d1e85fc7-5f89-4009-bede-ce3bce54ae31",
+  "name": "Car-info",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "21ca6dd5-6e8b-4909-9c1d-02042912741d",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "name": "givenname",
+          "value": "$givenname",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "what is your name ?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "c96c7bc1-65a1-4394-8321-de0201d34324",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "name": "phonenumber",
+          "value": "$phonenumber",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Whats your mobile number ?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "e82d85ef-6b94-4f16-8841-6c4b7b0607ef",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "age",
+          "value": "$age",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "at is your age?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Error occur from dialogflow"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": []
+}
