@@ -1,0 +1,29 @@
+[
+  {
+    "value": "vip",
+    "synonyms": [
+      "vip",
+      "VIP",
+      "special",
+      "luxury",
+      "business class"
+    ]
+  },
+  {
+    "value": "regular",
+    "synonyms": [
+      "regular",
+      "standard",
+      "middle class"
+    ]
+  },
+  {
+    "value": "cheap",
+    "synonyms": [
+      "cheap",
+      "economic",
+      "low cost",
+      "lower class"
+    ]
+  }
+]

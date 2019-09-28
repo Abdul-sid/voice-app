@@ -1,0 +1,50 @@
+[
+  {
+    "id": "e14f53a9-1aff-40c7-bfba-f1eae76c65e5",
+    "data": [
+      {
+        "text": "show all bookings",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f33989fe-56e1-4bbd-a748-daddd39af54d",
+    "data": [
+      {
+        "text": "how many bookings i have",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8aed0dc5-7304-424c-806f-a848449eb157",
+    "data": [
+      {
+        "text": "how many do i have bookings",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d2672a31-b089-4d97-9320-9973b5dbb839",
+    "data": [
+      {
+        "text": "show me the booking",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

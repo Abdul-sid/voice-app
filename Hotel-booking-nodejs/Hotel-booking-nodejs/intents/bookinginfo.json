@@ -1,0 +1,116 @@
+{
+  "id": "b733ea69-3520-4198-9679-dd1d05da2ee8",
+  "name": "bookinginfo",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "2749ce81-a8a6-4abb-ae66-b9aceb6fce38",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "name": "givenname",
+          "value": "$givenname",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is your name ?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "45dcdcf3-1a19-43a4-af33-0bbb2d010762",
+          "required": true,
+          "dataType": "@sys.email",
+          "name": "email",
+          "value": "$email",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "please tell me or enter your email"
+            },
+            {
+              "lang": "en",
+              "value": "what is your email ?"
+            },
+            {
+              "lang": "en",
+              "value": "email of your please."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "c91cf15c-f770-4db1-9088-1723ac7d1b8d",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "hotel for how many people ?"
+            },
+            {
+              "lang": "en",
+              "value": "tell me the number of people which will stay in hotel with you."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "d36a3b6f-ce11-4b43-a143-f0cbf80fbdf2",
+          "required": true,
+          "dataType": "@roomtype",
+          "name": "roomtype",
+          "value": "$roomtype",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Which type of room do you want ? We have vip , standard and economic rooms"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "error from dialog flow"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

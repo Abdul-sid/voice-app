@@ -1,0 +1,23 @@
+[
+  {
+    "value": "yes",
+    "synonyms": [
+      "yes",
+      "show them",
+      "show them all",
+      "show all",
+      "i wanna see them",
+      "show me all"
+    ]
+  },
+  {
+    "value": "no",
+    "synonyms": [
+      "no",
+      "i dont wanna see them",
+      "wanna see them",
+      "dont show them",
+      "do not show them"
+    ]
+  }
+]
